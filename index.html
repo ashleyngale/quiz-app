@@ -19,7 +19,7 @@
 <fieldset>
   <div class= "main">
   <div class= "header-contain">
-    <legend> Most Popular Capitals</legend>
+    <legend>Popular Capitals</legend>
     <p> This quiz will help you expand your knowledge on some of the most popular capitals in the world!</p>
     </div>
     </div>
@@ -37,3 +37,87 @@
     <script src="script.js"></script>
   </body>
 </html>
+
+//display the question
+
+<div>
+  <form id="js-questions" class="question-form">
+    
+    <fieldset>
+      <div class= "main">
+        <div class= "header-contain">
+          <legend>Popular Capitals</legend>
+          <p> ${question.question}</p>
+        </div>
+      </div>
+
+      <div class= "main">
+        <div class= "header-contain">
+          <div class="js-options"> </div>
+      </div>
+    </div>
+  
+
+    <div class= "main">
+      <div class= "header-contain">
+        <button type = "submit" id="answer" >Submit</button>
+        <button type = "button" id="next-question" > Next</button>
+      </div>
+    </div>
+  </fieldset>
+  </form>
+</div>
+
+//display if its right or wrong
+
+<div>
+  <form id="js-questions" class="question-form">
+    
+    <fieldset>
+      <div class= "main">
+        <div class= "header-contain">
+          <legend>Popular Capitals</legend>
+          <p> ${question.question}</p>
+          <div class= "rightorwrong">
+            <p> ${correct}</p>
+            <p> ${wrong}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class= "main">
+        <div class= "header-contain">
+          <div class="js-options"> </div>
+      </div>
+    </div>
+  
+
+    <div class= "main">
+      <div class= "header-contain">
+        <button type = "submit" id="answer" >Submit</button>
+        <button type = "button" id="next-question" > Next</button>
+      </div>
+    </div>
+  </fieldset>
+  </form>
+</div>
+
+//display results
+<div class="results">
+  <form id="js-restart-quiz">
+    <fieldset>
+      <div class= "main">
+        <div class= "header-contain">
+          <legend>Score: ${STORE.score}/${STORE.questions.length}</legend>
+        </div>
+      </div>
+    
+      <div class= "main">
+        <div class= "header-contain">
+          <button type="button" id="restart"> Restart Quiz </button>
+        </div>
+      </div>
+    </fieldset>
+</form>
+</div>
+
