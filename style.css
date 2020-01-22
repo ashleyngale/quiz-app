@@ -1,9 +1,45 @@
+body{
+  background: url("world flags.jpeg");
+  text-align: center;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+}
+
 h1{
-    text-align: center;
-    margin: 80px;
+    margin: 60px;
   }
   
   legend{
     font-weight: 700;
     text-align: center;
   }
+
+  #js-answered, #js-score{
+    list-style: none;
+    font-size: 20px; 
+    padding-right: 40px;
+  }
+
+main{
+  width: 100%;
+}
+
+
+
+
+h1, main{
+  background: white;
+  border: 5px black;
+  border-style: solid;
+text-align: center;
+display: inline-block;
+}
+
+.right-answer{
+  color: green;
+}
+
+.wrong-answer{
+  color: red;
+}
+

@@ -6,126 +6,42 @@
     <meta name="description" content="Popular country capitals quiz">
    <title>Capitals Quiz App</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <div class= "main">
       <div class="header-contain">
         <h1> Capitals Quiz<h1>
+          <div class="question-and-score"></div>
       </div>
       </div>
     </header>
 
+<main role='main' aria-live="assertive">
 <fieldset>
   <div class= "main">
-  <div class= "header-contain">
-<<<<<<< HEAD
-    <legend>Popular Capitals</legend>
-=======
-    <legend> Most Popular Capitals</legend>
->>>>>>> a9e95556c2f767961d214ff1e6c2d06c53a3fae1
+  <div class= "header-container">
+
+    <legend> The Most Popular Capitals</legend>
+
     <p> This quiz will help you expand your knowledge on some of the most popular capitals in the world!</p>
     </div>
     </div>
 
   <div class= "main">
-  <div class= "header-contain">
+  <div class= "header-container">
     <button type="button" id="start">
      Start Quiz</button>
      </div>
     </div>
-    <div class="question-and-score"></div>
-        </div> 
-    <fieldset>
-      
-    <script src="script.js"></script>
-  </body>
-<<<<<<< HEAD
-</html>
-
-//display the question
-
-<div>
-  <form id="js-questions" class="question-form">
-    
-    <fieldset>
-      <div class= "main">
-        <div class= "header-contain">
-          <legend>Popular Capitals</legend>
-          <p> ${question.question}</p>
-        </div>
-      </div>
-
-      <div class= "main">
-        <div class= "header-contain">
-          <div class="js-options"> </div>
-      </div>
-    </div>
-  
-
-    <div class= "main">
-      <div class= "header-contain">
-        <button type = "submit" id="answer" >Submit</button>
-        <button type = "button" id="next-question" > Next</button>
-      </div>
-    </div>
-  </fieldset>
-  </form>
-</div>
-
-//display if its right or wrong
-
-<div>
-  <form id="js-questions" class="question-form">
-    
-    <fieldset>
-      <div class= "main">
-        <div class= "header-contain">
-          <legend>Popular Capitals</legend>
-          <p> ${question.question}</p>
-          <div class= "rightorwrong">
-            <p> ${correct}</p>
-            <p> ${wrong}</p>
-          </div>
-        </div>
-      </div>
-
-      <div class= "main">
-        <div class= "header-contain">
-          <div class="js-options"> </div>
-      </div>
-    </div>
-  
-
-    <div class= "main">
-      <div class= "header-contain">
-        <button type = "submit" id="answer" >Submit</button>
-        <button type = "button" id="next-question" > Next</button>
-      </div>
-    </div>
-  </fieldset>
-  </form>
-</div>
-
-//display results
-<div class="results">
-  <form id="js-restart-quiz">
-    <fieldset>
-      <div class= "main">
-        <div class= "header-contain">
-          <legend>Score: ${STORE.score}/${STORE.questions.length}</legend>
-        </div>
-      </div>
-    
-      <div class= "main">
-        <div class= "header-contain">
-          <button type="button" id="restart"> Restart Quiz </button>
-        </div>
-      </div>
     </fieldset>
-</form>
-</div>
+    </main>
+      <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+      <script src="store.js"></script>
+    <script src="index.js"></script>
+  </body>
 
-=======
 </html>
->>>>>>> a9e95556c2f767961d214ff1e6c2d06c53a3fae1
+
+
