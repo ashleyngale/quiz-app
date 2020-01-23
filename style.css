@@ -32,7 +32,7 @@ h1, main{
   border: 5px black;
   border-style: solid;
 text-align: center;
-display: inline-block;
+align-items: center;
 }
 
 .right-answer{
