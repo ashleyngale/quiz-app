@@ -1,5 +1,5 @@
 // when the user clicks the start button
-function startQuiz(){
+function startQuiz(){1
     $('#start').on('click', function(event){
       renderAQuestion();
     }
@@ -9,7 +9,7 @@ function startQuiz(){
   
   //Display question number and score obtained
   function updateQuestionAndScore(){
-    const html = $(`<ul> <li id="js-answered"> Question Number:${STORE.currentQuestion + 1}/${STORE.questions.length}</li> <li id="js-score">Score: ${STORE.score}/${STORE.questions.length}</li>
+    const html = $(`<ul> <li id="js-answered"> Question Number: ${STORE.currentQuestion + 1}/${STORE.questions.length}</li> <li id="js-score">Score: ${STORE.score}/${STORE.questions.length}</li>
     </ul>`);
     $(".question-and-score").html(html);
   }

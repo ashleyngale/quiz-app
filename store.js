@@ -1,11 +1,11 @@
 const STORE = {
     questions: [ //1
     {
-      question: "What is the capital of pakistan?",
+      question: "What is the capital of Pakistan?",
       options: [
       "Vermont",
       "Islamabad",
-      "berlin",
+      "Berlin",
       "Bogota"
       ],
       answer: "Islamabad"
@@ -15,7 +15,7 @@ const STORE = {
       question: "What is the capital of Malaysia?",
    
    options: [
-   "algeriers",
+   "Algeriers",
    "Beijing",
    "Belmopan",
    "Kuala Lumpur"
@@ -35,14 +35,14 @@ const STORE = {
    },
    
    {
-   question: "What is the capital of  the US?",
+   question: "What is the capital of the United States?",
    options:[
    "Vermont",
    "Washington DC",
    "Addis Ababa",
    "Bridgetown"
    ],
-   answer: "Wshington DC"
+   answer: "Washington DC"
    },
    
    {//4
@@ -53,7 +53,7 @@ const STORE = {
    "Jakarta",
    "Copenhagen"
    ],
-   answer: "santiago"
+   answer: "Santiago"
    }
     ],
     currentQuestion: 0,
