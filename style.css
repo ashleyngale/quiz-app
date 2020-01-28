@@ -2,7 +2,7 @@ body{
   background: url("world flags.jpeg");
   text-align: center;
   font-family: 'Oswald', sans-serif;
-}
+    }
 
 h1{
     margin: 60px;
@@ -44,10 +44,12 @@ h1, main{
   color: red;
 }
 
-hover
-{ cursor: pointer }
+body.button {
+  cursor: pointer;
+}
 
-
-
+button{
+  cursor: pointer;
+}
 
 
