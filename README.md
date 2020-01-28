@@ -1,1 +1,2 @@
 # quiz-app
+This project displays 5 questions with 4 multiple choice options. It displays the question number the user is currently on, and a score which updates when the user clicks submit. It return the right answer if they answer incorrectly and congratulates the user if they answer correctly. Lastly it shows your final score and offers a chance to retake the quiz. 
