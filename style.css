@@ -1,7 +1,6 @@
 body{
   background: url("world flags.jpeg");
   text-align: center;
-  display: inline-block;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -45,6 +44,8 @@ h1, main{
   color: red;
 }
 
+hover
+{ cursor: pointer }
 
 
 
